@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./menu.css">
+    <title>otra pagina</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div><img src="./pngwing.com.png" ></div>
+            <h1>juegos.com</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li> <a href="./index.html"><svg class="icon icon-home">
+                    <symbol id="icon-home" viewBox="0 0 32 32">
+                        <path d="M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z"></path>
+                        </symbol><use xlink:href="#icon-home"> <a href=""></a></use></svg></a></li>
+                <li> <a href="./menu.html#nosotros">Nosotros</a> </li>
+               <a href="./menu.html#servicios"><li id="mostrar" > servicios </a>
+                    <ul class="submenu">
+                        <a href="#servicio1"><li> servicios1</li></a>
+                        <a href="#servicio2"><li> servicios2</li></a>
+                    </ul>
+                </li>
+                <a href="./menu.html#contactanos"><li> Contactanos </li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="nosotros" id="nosotros">
+            <h2>Nosotros</h2>
+            <div class="nosotros1">
+            <img src="./juegos.jpg" class="imagen">
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vel qui vitae perferendis quam minima aspernatur sit reiciendis rem labore!</p>
+            </div>
+            <hr>
+        </div>
+        <div class="servicio" id="servicios">
+            <h2> Servicios</h2>
+            <div class="servi">
+            <div class="servicio1">
+                <h3>Servicio 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, eaque.</p>
+            </div>
+            <div class="servicio2">
+                <h3> Servicio 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quas.</p>
+            </div>
+            </div>
+        </div>
+        <div class="contactanos" id="contactanos">
+            <h2>contacto</h2> <br>
+            <div class="formulario">
+            <form action="#">
+                Nombre: <br> <label></label><input type="text"><br></label>
+                Email: <br> <label></label><input type="email"><br></label>
+                Telefono:  <br><label><input type="number" maxlength="10"><br></label>
+               <br> <label><textarea name="texto" class="input2" placeholder="Enter you comment here..."></textarea><br></label>
+     
+               <button type="submit">enviar    </button>
+            </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
